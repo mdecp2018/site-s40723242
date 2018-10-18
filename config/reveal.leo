@@ -338,8 +338,10 @@ make.start()
 
 						
 </t>
-<t tx="leo.20181018200518.2">ouo
+<t tx="leo.20181018200518.2">### MCAD-S40723242 網際簡報
 
+* [CMSimfly](https://github.com/chiamingyen/cmsimfly) 操作
+* [Onshape](https://www.onshape.com/) 操作
 
 </t>
 </tnodes>
