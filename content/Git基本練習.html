@@ -1,39 +1,73 @@
-<h1>簡介</h1>
-<p>2018 s40723242 計算機程式與電腦輔助設計課程分組網站</p>
-<p><span>學程式語言心得-苦盡甘來</span></p>
-<p><span><img alt="" height="225" src="/images/下載.png" width="225"/></span></p>
-<h2>CMSimfly 網站</h2>
-<p>各組必須自行更改 Config 中的網站標題, 且每次完成近端動態網頁編輯後, 以 generate_pages 按鈕, 將動態網頁資料轉為靜態網頁資料, 之後再新增、提交並推送到遠端倉儲.</p>
-<h2>reveal 投影片</h2>
-<p>以 <a href="http://www.leoeditor.com/">Leo Editor</a> 開啟 config/reveal.leo</p>
-<h2>pelican 網誌</h2>
-<p>以 <a href="http://www.leoeditor.com/">Leo Editor</a> 開啟 config/pelican.leo </p>
-<p>各分組必須自行更改 @edit pelicanconf.py 中的 AUTHOR 與 SITENAME</p>
-<p>更改 @edit publishconf.py 中的 SITEURL</p>
-<h1>教學瀏覽器</h1>
-<p><a href="https://www.google.com.tw/">Google</a></p>
-<p><a href="https://www.youtube.com/?gl=TW">Youtube</a></p>
-<p><a href="https://github.com/">Github</a></p>
-<p><a href="http://mde.tw/#/">MDE</a></p>
-<p><a href="https://www.youtube.com/channel/UCJ0Ye3mhMApH0yxAcwCXs5g/videos">MDE-Youtube</a></p>
-<p><a href="https://www.nfu.edu.tw/zh/">NFU</a></p>
-<p><a href="http://design.nfu.edu.tw/bin/home.php">NFU-MDE</a></p>
-<h2>Google</h2>
-<p><a href="https://www.google.com.tw/" title="Google"><img alt="" height="450" src="/images/googlepic.jpg" width="800"/></a></p>
-<h2>Youtube</h2>
-<p><a href="https://www.youtube.com/?gl=TW" title="Youtube"><img alt="" height="450" src="/images/YouTube.max-1100x1100.png" width="450"/></a></p>
-<h2>Github</h2>
-<p><a href="https://github.com/" title="Github"><img alt="" height="450" src="/images/github-mark.png" width="858"/></a></p>
-<h2>MDE</h2>
-<p><a href="http://mde.tw/#/" title="MDE"><img alt="" height="450" src="/images/下載.png" width="450"/></a></p>
-<h2>MDE-Youtube</h2>
-<p><a href="https://www.youtube.com/channel/UCJ0Ye3mhMApH0yxAcwCXs5g/videos" title="MDE-Youtube">MDE-Youtube</a></p>
-<h2>NFU</h2>
-<p><a href="https://www.nfu.edu.tw/zh/" title="NFU"><img alt="" height="450" src="/images/NFU_Logo.svg.png" width="698"/></a></p>
-<h2>NFU-MDE</h2>
-<p><a href="http://design.nfu.edu.tw/bin/home.php" title="NFU-MDE"><img alt="" height="450" src="/images/下載.jpg" width="556"/></a></p>
-<h1>教學相關內容</h1>
-<h2>Git基本練習</h2>
+<!doctype html>
+<html><head>
+<meta http-equiv="content-type" content="text/html;charset=utf-8">
+<title>計算機程式教材</title> <link rel="stylesheet" type="text/css" href="./../static/cmsimply.css">
+
+<script type="text/javascript" src="./../static/syntaxhighlighter/shCore.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushJScript.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushJava.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushPython.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushSql.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushXml.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushPhp.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushLua.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushCpp.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushCss.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushCSharp.js"></script>
+<link type="text/css" rel="stylesheet" href="./../static/syntaxhighlighter/css/shCoreDefault.css"/>
+<script type="text/javascript">SyntaxHighlighter.all();</script>
+
+<!-- for LaTeX equations 暫時不用
+<script src="https://scrum-3.github.io/web/math/MathJax.js?config=TeX-MML-AM_CHTML" type="text/javascript"></script>
+<script type="text/javascript">
+init_mathjax = function() {
+    if (window.MathJax) {
+        // MathJax loaded
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+                displayMath: [ ['$$','$$'], ["\\[","\\]"] ]
+            },
+            displayAlign: 'left', // Change this to 'center' to center equations.
+            "HTML-CSS": {
+                styles: {'.MathJax_Display': {"margin": 0}}
+            }
+        });
+        MathJax.Hub.Queue(["Typeset",MathJax.Hub]);
+    }
+}
+init_mathjax();
+</script>
+-->
+<!-- 暫時不用
+<script src="./../static/fengari-web.js"></script>
+<script type="text/javascript" src="./../static/Cango-13v08-min.js"></script>
+<script type="text/javascript" src="./../static/CangoAxes-4v01-min.js"></script>
+<script type="text/javascript" src="./../static/gearUtils-05.js"></script>
+-->
+<!-- for Brython 暫時不用
+<script src="https://scrum-3.github.io/web/brython/brython.js"></script>
+<script src="https://scrum-3.github.io/web/brython/brython_stdlib.js"></script>
+-->
+
+<script src="./../static/jquery.js"></script>
+<script type="text/javascript">
+$(function(){
+    $("ul.topmenu> li:has(ul) > a").append('<div class="arrow-right"></div>');
+    $("ul.topmenu > li ul li:has(ul) > a").append('<div class="arrow-right"></div>');
+});
+</script>
+
+</head><header><h1>2018 s40723242 分組網站</h1> <confmenu>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="sitemap.html">Site Map</a></li>
+<li><a href="./../reveal/index.html">reveal</a></li>
+<li><a href="./../blog/index.html">blog</a></li>
+
+</ul>
+</confmenu></header>
+<div class='container'><nav><ul id='css3menu1' class='topmenu'><li><a href='簡介.html'>簡介</a><ul><li><a href='CMSimfly 網站.html'>CMSimfly 網站</a><li><a href='reveal 投影片.html'>reveal 投影片</a><li><a href='pelican 網誌.html'>pelican 網誌</a></li></ul><li><a href='教學瀏覽器.html'>教學瀏覽器</a><ul><li><a href='Google.html'>Google</a><li><a href='Youtube.html'>Youtube</a><li><a href='Github.html'>Github</a><li><a href='MDE.html'>MDE</a><li><a href='MDE-Youtube.html'>MDE-Youtube</a><li><a href='NFU.html'>NFU</a><li><a href='NFU-MDE.html'>NFU-MDE</a></li></ul><li><a href='教學相關內容.html'>教學相關內容</a><ul><li><a href='Git基本練習.html'>Git基本練習</a></li></ul><li><a href='教學相關影片.html'>教學相關影片</a><ul><li><a href='week1.html'>week1</a><li><a href='week2.html'>week2</a><li><a href='week3.html'>week3</a><li><a href='week4.html'>week4</a><li><a href='week5.html'>week5</a><li><a href='week6.html'>week6</a></li></ul><li><a href='個人練習影片.html'>個人練習影片</a><ul><li><a href='04.html'>04</a></li></ul><li><a href='組員操作影片.html'>組員操作影片</a><ul><li><a href='Week1.html'>Week1</a></li></ul><li><a href='Python 手冊.html'>Python 手冊</a><li><a href='OnShape 手冊.html'>OnShape 手冊</a><li><a href='Fusion 360.html'>Fusion 360</a></li></ul></nav><section>教學相關內容 << <a href='教學相關內容.html'>Previous</a> <a href='教學相關影片.html'>Next</a> >> 教學相關影片<br /><h1>Git基本練習</h1>
 <p>Git基本練習</p>
 <p><span>啟動 p37 可攜系統</span></p>
 <p><span>在其中一個 Dos 命令列中, 輸入:</span></p>
@@ -90,14 +124,14 @@
 <p>將工作目錄轉為 master 的版本, 然後將 dev 分支的內容合併進來:</p>
 <p>    git merge dev</p>
 <p>這時的 myprogram.txt 內容為:</p>
-<p><img alt="" height="273" src="/images/myprogram_master_dev_conflict.png" width="231"/></p>
+<p><img alt="" height="273" src="./../images/myprogram_master_dev_conflict.png" width="231"/></p>
 <p><span>必須要刪除衝突標註符號, 同時保留 add second function 與 add test function, 存檔後成為:</span></p>
-<p><span><img alt="" height="205" src="/images/2.png" width="210"/></span></p>
+<p><span><img alt="" height="205" src="./../images/2.png" width="210"/></span></p>
 <p>最後對此一合併後的版本, 進行新增與提交:</p>
 <p>    git add .</p>
 <p>    git commit -m "complete first, second and test functions adding"</p>
 <p>再以 git log --oneline --graph --all 檢查各提交間的關聯, 畫面如下圖所示:</p>
-<p><img alt="" height="221" src="/images/git_log_graph_oneline_all.png" width="635"/></p>
+<p><img alt="" height="221" src="./../images/git_log_graph_oneline_all.png" width="635"/></p>
 <p>利用以上方式管理檔案版次的好處是, 使用者可以透過高效能的 Git 工具, 導出各提交點的版本, 或者從任一版本建立分支進行各種測試, 不會影響到其他提交版本資料的發布, 等到近端的 git 倉儲進一步推送到遠端的伺服器時, 遠端倉儲不僅可以提供協同, 也可提升資料保全效益, 無論是近端或遠端電腦硬碟發生問題, 都可以從任一參與協同的倉儲中回復所有已經提交的各版本內容.</p>
 <p>最後要將工作目錄導向最初 initial add 提交時的版本:</p>
 <p>    git checkout 9439e67</p>
@@ -109,39 +143,6 @@
 <p>    git checkout 1c3d5ff</p>
 <p>將工作目錄導回最後 master 合併 dev 分支的版本:</p>
 <p>    git checkout ace97d7</p>
-<p>將上述 test (畫面中為 test1) 目錄壓縮後: <a href="http://mde.tw/cp2018/downloads/cp_w3_test_repo.7z">cp_w3_test_repo.7z</a></p>
+<p>將上述 test (畫面中為 test1) 目錄壓縮後: <a href="http://mde.tw/cp2018./../downloads/cp_w3_test_repo.7z">cp_w3_test_repo.7z</a></p>
 <p>經過上述的 Git 近端指令操作, 可以了解在程式開發過程, 可以透過  Git 分散式版本管理系統的功能, 以非常具有彈性的流程進行程式碼的編寫, 尤其當協同開發人員眾多時,  Git 與 Github 將更能發揮其條理開發的特定, 並且安全地保存各版次資料內容.</p>
-<h1>教學相關影片</h1>
-<h2>week1</h2>
-<p>如何建立、管理及維護自己建的網站教學</p>
-<p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/ax2ZuPm3YXc" width="560"></iframe></p>
-<h2>week2</h2>
-<p><yt-formatted-string class="style-scope ytd-video-primary-info-renderer">說明如何以 ShareX 取圖, 如何管理 CMSimfly 作業倉儲.</yt-formatted-string></p>
-<p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/q_1Ht6CLPWA" width="560"></iframe></p>
-<p><yt-formatted-string class="style-scope ytd-video-primary-info-renderer"><span> </span>說明如何管理網際投影片與網誌</yt-formatted-string></p>
-<p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/PNfuu95a3ns" width="560"></iframe></p>
-<h2>week3</h2>
-<p><yt-formatted-string class="style-scope ytd-video-primary-info-renderer">git 基本操作練習</yt-formatted-string></p>
-<p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/158Ir6Mni60" width="560"></iframe></p>
-<h2>week4</h2>
-<h2>week5</h2>
-<h2>week6</h2>
-<h1>個人練習影片</h1>
-<h2>04</h2>
-<p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/5bQ7HDFsShE" width="560"></iframe></p>
-<br/><br/>05-06<br/><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/kheblYcy2oI" width="560"></iframe>
-<br/>Github更換倉儲<iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/7KG7cKkouio" width="560"></iframe>
-<br/>Github基本練習<iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/EsRV3ubyLPY" width="560"></iframe><h1>組員操作影片</h1>
-<p>每週各分組組員必須將參與分組協同過程之電腦操作流程錄成影片後, 上傳至各自的 Youtube 帳號區, 並嵌入各分組網站頁面中.</p>
-<h2>Week1</h2>
-<p><span>國立虎尾科技大學機械設計工程系計算機程式 - 一乙第八週第三部分, 說明如何利用 Eric6 IDE 建立所需的 calculator 計算機程式對話表單. 過程中主要學習如何啟動 Eric6, 如何建立 Eric6 專案, 如何切換 Sources tab 與 Form tab, 如何在進入 Qt Designer 後利用格點布局, 建立按鈕與 Line Edit 部件.</span></p>
-<p><iframe allow="autoplay; encrypted-media" allowfullscreen="allowfullscreen" frameborder="0" height="315" src="https://www.youtube.com/embed/g4ksXq7sQ4M" width="560"></iframe></p>
-<h1>Python 手冊</h1>
-<p>計算機程式教材:  <a href="http://mde.tw/cp2018/content/">http://mde.tw/cp2018/content/</a> </p>
-<p>可攜程式下載: <a href="https://drive.google.com/file/d/1DWtyoUhl8CycKJ8uulB3viRXE39KqpE1/view?usp=sharing">p37.7z</a></p>
-<h1>OnShape 手冊</h1>
-<p><a href="https://www.onshape.com/">https://www.onshape.com/</a> </p>
-<p>電腦輔助設計實習課程教材: <a href="http://mde.tw/cadp2018/content/">http://mde.tw/cadp2018/content/</a> </p>
-<h1>Fusion 360</h1>
-<p><a href="https://www.autodesk.com/products/fusion-360/students-teachers-educators">https://www.autodesk.com/products/fusion-360/students-teachers-educators</a> </p>
-<p>=======</p>
+<br />教學相關內容 << <a href='教學相關內容.html'>Previous</a> <a href='教學相關影片.html'>Next</a> >> 教學相關影片</section></div></body></html>
