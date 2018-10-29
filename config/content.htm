@@ -254,6 +254,60 @@
 <h3>06</h3>
 <p><a href="https://github.com/ParkMinKyu/scheduler">https://github.com/ParkMinKyu/scheduler</a></p>
 <p></p>
+<h1>每周進度</h1>
+<h2>week-1</h2>
+<h2>week-2</h2>
+<h2>week-3</h2>
+<h2>week-4</h2>
+<h2>week-5</h2>
+<h3>python練習</h3>
+<p><yt-formatted-string class="style-scope ytd-video-primary-info-renderer">python練習1</yt-formatted-string></p>
+<pre class="brush:py;auto-links:false;toolbar:false" contenteditable="false"># 導入 sys 模組
+import sys
+# 導入 keyword 模組
+import keyword
+
+# 利用 sys 模組中的 version_info 印出 Python 版次
+print("Python version: ", sys.version_info)
+# 利用 keyword 模組中的 kwlist 印出關鍵字
+print("Python key  words: ",(keyword.kwlist))
+print("total number of Python keywords: ", len(keyword.kwlist))</pre>
+<p><yt-formatted-string class="style-scope ytd-video-primary-info-renderer">python練習2</yt-formatted-string></p>
+<pre class="brush:py;auto-links:false;toolbar:false" contenteditable="false"># 導入 Ex1 原始碼
+a = 0
+def my_print(n, input_str):
+    print("以下將重覆列印 '", input_str + "' " + str(n) + "次")
+    for i in range(n):
+        print(i, input_str)
+
+my_print(5, "Hello World!")
+the_str = "開始學習 Python"
+num = input("請輸入要列印的次數!")
+my_print(int(num), the_str)
+a = a + 1
+print("(" + str(a) + ")", "_" * 25)
+
+def myfun():
+    yield 1
+    yield 2
+    yield 3
+
+for i in myfun():
+    print(i)
+
+x = iter(myfun())
+y = list(myfun())
+
+a = a + 1
+print("(" + str(a) + ")", "_" * 25)
+print(x.__next__())
+print(x.__next__())
+print(x.__next__())
+print(y)
+</pre>
+<p></p>
+<h2>week-6</h2>
+<h2>week-7</h2>
 <h1>個人練習影片</h1>
 <p></p>
 <h2>04</h2>
@@ -265,7 +319,7 @@
 <p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/7KG7cKkouio" width="560"></iframe></p>
 <h2>Github基本練習</h2>
 <p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/EsRV3ubyLPY" width="560"></iframe></p>
-<h2 class="title style-scope ytd-video-primary-info-renderer"><yt-formatted-string class="style-scope ytd-video-primary-info-renderer">網頁版本更新和如何處理Bug</yt-formatted-string></h2>
+<h2>網頁版本更新和如何處理Bug</h2>
 <p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/imP-EG_fXvI" width="560"></iframe></p>
 <h1>組員操作影片</h1>
 <p>每週各分組組員必須將參與分組協同過程之電腦操作流程錄成影片後, 上傳至各自的 Youtube 帳號區, 並嵌入各分組網站頁面中.</p>
