@@ -2,13 +2,13 @@
   position: relative;
 }
 header{
-  background: #ccc;
-  padding: 20px;
+  background-image:url("https://static1.squarespace.com/static/552b1764e4b03cff36ace4b2/5a46c83c9140b7ea14c70abd/5a46c9728165f549188c2ee1/1514682700179/2017_December21.jpg?format=2500w");
+  padding:40px;
 }
 confmenu
 {
 	#width: 800px;
-	background: #333;
+	background:#333
 	margin-bottom: 10px;
 }
 confmenu ul
@@ -201,6 +201,7 @@ background-color: white;
 width: 195px;
 }
 body {
+background-image:url("https://static1.squarespace.com/static/552b1764e4b03cff36ace4b2/5a46c83c9140b7ea14c70abd/5a46c86bf9619ae3bb26ade1/1514682700003/March13.jpg?format=1500w");
   margin-bottom: 120px;
 }
 
