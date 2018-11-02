@@ -24,8 +24,11 @@
 <v t="leo.20180827201621.9"><vh>封面投影片</vh>
 <v t="leo.20180827201621.10"><vh>封面投影片內容</vh></v>
 </v>
-<v t="leo.20181018200518.1" a="E"><vh>投影片1</vh>
-<v t="leo.20181018200518.2"><vh>封面投影片內容</vh></v>
+<v t="leo.20181102183733.1"><vh>投影片1</vh>
+<v t="leo.20181102183733.2"><vh>封面投影片內容</vh></v>
+</v>
+<v t="leo.20181102181215.1" a="E"><vh>練習成果</vh>
+<v t="leo.20181102181215.2"><vh>封面投影片內容</vh></v>
 </v>
 <v t="leo.20180827201621.11" a="E"><vh>快捷鍵</vh>
 <v t="leo.20180827201621.12"><vh>投影片快捷鍵</vh></v>
@@ -127,7 +130,7 @@ QLineEdit#editorLabel {
 <t tx="leo.20180827201556.3">horizontal: body pane to the left
 vertical: body pane on the botton</t>
 <t tx="leo.20180827201621.1"></t>
-<t tx="leo.20180827201621.10">## 2018 s40723242 分組網際簡報
+<t tx="leo.20180827201621.10">## 2018 s40723242 網際簡報
 
 ### 虎科大機械設計工程系
 
@@ -329,7 +332,7 @@ make.start()
 
 						
 </t>
-<t tx="leo.20181018200518.1">&lt;section data-markdown&gt;
+<t tx="leo.20181102181215.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
     &lt;/script&gt;
@@ -338,7 +341,18 @@ make.start()
 
 						
 </t>
-<t tx="leo.20181018200518.2">### MCAD-S40723242 網際簡報
+<t tx="leo.20181102181215.2">&lt;iframe width="560" height="315" src="https://www.youtube.com/watch?v=5bQ7HDFsShE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+</t>
+<t tx="leo.20181102183733.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20181102183733.2">### MCAD-S40723242 網際簡報
 
 * [CMSimfly](https://github.com/chiamingyen/cmsimfly) 操作
 * [Onshape](https://www.onshape.com/) 操作
