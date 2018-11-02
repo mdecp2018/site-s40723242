@@ -27,13 +27,10 @@
 <v t="leo.20181102183733.1"><vh>投影片1</vh>
 <v t="leo.20181102183733.2"><vh>封面投影片內容</vh></v>
 </v>
-<v t="leo.20181102181215.1" a="E"><vh>練習成果</vh>
-<v t="leo.20181102181215.2"><vh>封面投影片內容</vh></v>
-</v>
-<v t="leo.20180827201621.11" a="E"><vh>快捷鍵</vh>
+<v t="leo.20180827201621.11"><vh>快捷鍵</vh>
 <v t="leo.20180827201621.12"><vh>投影片快捷鍵</vh></v>
 </v>
-<v t="leo.20180827201621.13" a="E"><vh>各式內容引用範例</vh>
+<v t="leo.20180827201621.13"><vh>各式內容引用範例</vh>
 <v t="leo.20180827201621.14" a="E"><vh>導入數學符號與方程式</vh>
 <v t="leo.20180827201621.15"><vh>LaTeX 格式方程式</vh></v>
 </v>
@@ -42,6 +39,35 @@
 </v>
 <v t="leo.20180827201621.18" a="E"><vh>導入影片</vh>
 <v t="leo.20180827201621.19"><vh>iframe 導入影片</vh></v>
+</v>
+</v>
+<v t="leo.20181102185834.1"><vh>練習成果</vh>
+<v t="leo.20181102190725.1"><vh>title</vh>
+<v t="leo.20181102190725.2"><vh>練習成果</vh></v>
+</v>
+<v t="leo.20181102190028.1" a="E"><vh>內頁1</vh>
+<v t="leo.20181102190028.2"><vh>week-1</vh></v>
+</v>
+<v t="leo.20181102191608.1" a="E"><vh>內頁2</vh>
+<v t="leo.20181102191608.2"><vh>week-2</vh></v>
+</v>
+<v t="leo.20181102193031.1" a="E"><vh>內頁2</vh>
+<v t="leo.20181102193031.2"><vh>week-2</vh></v>
+</v>
+<v t="leo.20181102191629.1" a="E"><vh>內頁3</vh>
+<v t="leo.20181102191629.2"><vh>week-3</vh></v>
+</v>
+<v t="leo.20181102191641.1" a="E"><vh>內頁4</vh>
+<v t="leo.20181102191641.2"><vh>week-4</vh></v>
+</v>
+<v t="leo.20181102191652.1" a="E"><vh>內頁5</vh>
+<v t="leo.20181102191652.2"><vh>week-5</vh></v>
+</v>
+<v t="leo.20181102193200.1" a="E"><vh>內頁5</vh>
+<v t="leo.20181102193200.2"><vh>week-5</vh></v>
+</v>
+<v t="leo.20181102191655.1" a="E"><vh>內頁6</vh>
+<v t="leo.20181102191655.2"><vh>week-6</vh></v>
 </v>
 </v>
 </v>
@@ -332,17 +358,6 @@ make.start()
 
 						
 </t>
-<t tx="leo.20181102181215.1">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-						
-</t>
-<t tx="leo.20181102181215.2">&lt;iframe width="560" height="315" src="https://www.youtube.com/watch?v=5bQ7HDFsShE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
-</t>
 <t tx="leo.20181102183733.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -358,5 +373,156 @@ make.start()
 * [Onshape](https://www.onshape.com/) 操作
 
 </t>
+<t tx="leo.20181102185834.1">&lt;section&gt;
+@others
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20181102190028.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20181102190028.2">## week-1
+
+1.申請一支Github帳號
+
+2.下載好p37
+
+3.打開p37並git clone 2018 fall 內的網頁框架
+
+4.進行個人化網頁整改</t>
+<t tx="leo.20181102190725.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20181102190725.2">## 練習成果</t>
+<t tx="leo.20181102191608.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20181102191608.2">## week-2
+
+##### Github 第四次網頁更新
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/5bQ7HDFsShE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+
+</t>
+<t tx="leo.20181102191629.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20181102191629.2">## week-3
+
+### Github更換倉儲
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/7KG7cKkouio" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20181102191641.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20181102191641.2">## week-4
+
+### 網頁版本更新和如何處理Bug
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/imP-EG_fXvI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20181102191652.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20181102191652.2">## week-5
+
+### python練習
+
+#### github week5練習一
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/WTJEVVBrtzU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+
+</t>
+<t tx="leo.20181102191655.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20181102191655.2">## week-6
+
+### Github week6 practice
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/dgTs-QWipsI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20181102193031.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20181102193031.2">## week-2
+
+##### Github第五.六次網頁更新
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/kheblYcy2oI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20181102193200.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20181102193200.2">## week-5
+
+### python練習
+
+#### github week5 練習二
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/OsXIhoMy1hI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
 </tnodes>
 </leo_file>
