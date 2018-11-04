@@ -5,7 +5,14 @@ header{
   background-image:url("https://static1.squarespace.com/static/552b1764e4b03cff36ace4b2/5a46c83c9140b7ea14c70abd/5a46c9728165f549188c2ee1/1514682700179/2017_December21.jpg?format=2500w");
   padding:35px;
 }
-confmenu
+{<div data-video="VIDEO_ID"  
+    data-autoplay="0"         
+    data-loop="1"             
+    id="youtube-audio">
+</div>
+<script src="https://www.youtube.com/iframe_api"></script>
+<script src="https://cdn.rawgit.com/labnol/files/master/yt.js"></script>
+}confmenu
 {
 	#width: 800px;
 	background:#333
